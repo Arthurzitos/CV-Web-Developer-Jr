@@ -59,6 +59,92 @@ body {
     object-fit: cover;
 }
 
+.texto-perfil h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.texto-perfil h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.info-contato {
+    padding-top: 40px;
+}
+
+.titulo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.info-contato ul {
+    position: relative;
+}
+
+.info-contato ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.info-contato ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.info-contato ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.info-contato.educacao li {
+    margin-bottom: 15px;
+}
+
+.info-contato.educacao h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.info-contato.educacao h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.info-contato.educacao h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.info-contato.linguas .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.info-contato.linguas .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
 .container .lado-direito {
     position: relative;
     background: #fff;
