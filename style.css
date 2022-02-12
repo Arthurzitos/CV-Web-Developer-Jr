@@ -33,7 +33,10 @@ body {
     padding: 40px;
     border: 1px solid;
 }
-
+ 
+.lado-esquerdo {
+    width: 360px;
+}
 .texto-perfil {
     position: relative;
     display: flex;
