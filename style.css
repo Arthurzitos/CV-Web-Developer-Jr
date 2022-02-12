@@ -31,6 +31,7 @@ body {
     position: relative;
     background: #003147;
     padding: 40px;
+    border: 1px solid;
 }
 
 .texto-perfil {
@@ -150,3 +151,28 @@ body {
     background: #fff;
     padding: 40px;
 }
+
+/* Lado esquerdo
+----------------------------*/
+.sobre {
+    margin-bottom: 50px;
+}
+
+.sobre:last-child {
+    margin-bottom: 0;
+}
+
+.titulo2 {
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+}
+
+
+
+
