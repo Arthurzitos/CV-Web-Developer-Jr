@@ -203,7 +203,7 @@ p {
     font-size: 16px;
 }
 
-/* Hard Skills
+/* Skills
 ----------------*/
 .skills .caixa {
     position: relative;
@@ -233,4 +233,28 @@ p {
     left: 0;
     height: 100%;
     background: #03a9f4;
+}
+
+
+/* Responsividade
+--------------------*/
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .sobre .caixa {
+        flex-direction: column;
+    }
+
+    .sobre .caixa .ano-empresa {
+        margin-bottom: 5px;
+    }
+
+    .skills .caixa {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
